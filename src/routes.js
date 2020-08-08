@@ -8,7 +8,9 @@ const {
     sendData
 } = require('./logic')
 
-routes.get('/', async(req, res)=>{
+const dataMiddleware = require('./middlewares/dataValidation');
+
+routes.get('/', dataMiddleware, async(req, res)=>{
     try {
         const{state, dateStart, dateEnd} = req.query;
         
