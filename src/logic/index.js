@@ -1,4 +1,5 @@
 const apiCovid = require('../config/apiCovid');
+const apiNuvem = require('../config/apiNuvem');
 
 /**
  * Receives the data
@@ -60,7 +61,35 @@ const processData = async(citiesAtTheBeginning, citiesAtTheEnd)=>{
     return  validCities ;
 }
 
+/**
+ * Receives an array of valid Cities.
+ * Send a POST request to  'https://us-central1-lms-nuvem-mestra.cloudfunctions.net/testApi'
+ * for each valid City.
+ * @returns {Array} - An array with the data from POST request, sorted by 'percentualDeCasos'.
+ * @param {Array} validCities - An array with validated cities.
+ */
+const sendData = async(validCities)=> {
+    try {
+        let topCities = [];
+        const headers = {
+            'MeuNome': 'NomeTeste'
+        };
+
+        await Promise.all(validCities.map(async(city)=>{
+            const newCity = await apiNuvem.post('/', city, {headers} );
+            topCities.push(newCity.data);
+        }));
+
+        topCities = topCities.sort(compareData);
+
+        return topCities;
+    } catch(error) {
+        return [];
+    }
+}
+
 module.exports = {
     citiesOnDate,
     processData,
+    sendData
 }

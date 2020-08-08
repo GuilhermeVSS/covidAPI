@@ -4,7 +4,8 @@ const routes = new Router();
 
 const {
     citiesOnDate,
-    processData
+    processData,
+    sendData
 } = require('./logic')
 
 routes.get('/', async(req, res)=>{
@@ -14,8 +15,9 @@ routes.get('/', async(req, res)=>{
         const citiesAtTheBeginning = await citiesOnDate(state,dateStart);  
         const citiesAtTheEnd = await citiesOnDate(state, dateEnd);
         const validCities = await processData(citiesAtTheBeginning, citiesAtTheEnd);
+        const topCities = await sendData(validCities);
 
-        return res.status(200).json(validCities);
+        return res.status(200).json(topCities);
     }
     catch(error) {
         return res.status(500).json({error: "Something went wrong"});
