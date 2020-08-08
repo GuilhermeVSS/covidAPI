@@ -72,7 +72,7 @@ const sendData = async(validCities)=> {
     try {
         let topCities = [];
         const headers = {
-            'MeuNome': 'NomeTeste'
+            'MeuNome': 'Guilherme Ventura Santos Silva'
         };
 
         await Promise.all(validCities.map(async(city)=>{
