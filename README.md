@@ -51,7 +51,7 @@ body-parser      |  To manipulate HTTP requests
 </br>
 
 ## Link
-Here is the link to covidAPI online
+Here is the link to covidAPI online:
 
 [covidAPI](https://limitless-chamber-90378.herokuapp.com/)
 
