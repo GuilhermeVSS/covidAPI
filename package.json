@@ -1,0 +1,18 @@
+{
+  "name": "apiCovid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GuilhermeVSS/apiCovid.git",
+  "author": "<gvssilva@dcomp.ufs.br>",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
