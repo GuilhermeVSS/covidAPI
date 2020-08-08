@@ -1,0 +1,66 @@
+const apiCovid = require('../config/apiCovid');
+
+/**
+ * Receives the data
+ * to send a GET request to 'https://brasil.io/api/dataset/covid19/caso/data/'.
+ * @return {Array} - An array with the data from GET request.
+ * @param {string} state - The code of one state .
+ * @param {string} date - A date following the format 'YYYY-MM-DD'.
+ */
+const citiesOnDate = async(state,date)=>{
+    try{
+        const {data}  = await apiCovid.get(`?state=${state}&date=${date}`);
+        return data.results;
+    }catch(error){
+        return [];
+    }
+}
+
+/**
+ * Assist the Sort function to sort in decrease order, by 'percentualDeCasos'. 
+ * @param {Object} cityA - An Object with the data about one city.
+ * @param {Object} cityB - An Object with the data about one city.
+ */
+const compareData  = (cityA, cityB)=>{
+    return cityB.percentualDeCasos - cityA.percentualDeCasos;  
+}
+
+/**
+ * Process the receive data
+ * to get an array with only validated Cities.
+ * @returns {Array} - Returns an array with validated cities, sorted by 'percentualDeCasos'.
+ * @param {Array} citiesAtTheBeginning - An array with the data of the cities at the beginning of the period. 
+ * @param {Array} citiesAtTheEnd - An array with the data  of the cities at the end of the period.
+ */
+const processData = async(citiesAtTheBeginning, citiesAtTheEnd)=>{
+    let validCities = [];
+   
+    citiesAtTheBeginning.map((city)=>{
+        if(city.city !== null && city.confirmed!== null && city.estimated_population_2019 !== null) {
+            const cityAfter = citiesAtTheEnd.find(element => element.city_ibge_code === city.city_ibge_code);
+            const increase = cityAfter.confirmed - city.confirmed;
+            const percentCases = (increase/city.estimated_population_2019)*100;
+
+            validCities.push({
+                id: 0,
+                nomeCidade: city.city,
+                percentualDeCasos: percentCases
+            });
+        }
+    });
+   
+    validCities = validCities.sort(compareData);
+
+    validCities = validCities.slice(0,10);
+    
+    for(let index = 0; index < validCities.length; index++){
+        validCities[index].id = index;
+    }
+    
+    return  validCities ;
+}
+
+module.exports = {
+    citiesOnDate,
+    processData,
+}
