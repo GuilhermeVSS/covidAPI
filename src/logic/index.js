@@ -19,11 +19,20 @@ const citiesOnDate = async(state,date)=>{
 
 /**
  * Assist the Sort function to sort in decrease order, by 'percentualDeCasos'. 
- * @param {Object} cityA - An Object with the data about one city.
- * @param {Object} cityB - An Object with the data about one city.
+ * @param {Object} cityBefore - An Object with the data about one city.
+ * @param {Object} cityAfter - An Object with the data about one city.
  */
-const compareData  = (cityA, cityB)=>{
-    return cityB.percentualDeCasos - cityA.percentualDeCasos;  
+const compareByPercent  = (cityBefore, cityAfter) => {
+    return cityAfter.percentualDeCasos - cityBefore.percentualDeCasos;  
+}
+
+/**
+ * Assist the Sort function to sort in decrease order, by 'id'. 
+ * @param {Object} cityBefore - An Object with the data about one city.
+ * @param {Object} cityAfter - An Object with the data about one city.
+ */
+const compareById = (cityBefore, cityAfter) => {
+    return cityBefore.id - cityAfter.id;  
 }
 
 /**
@@ -50,10 +59,10 @@ const processData = async(citiesAtTheBeginning, citiesAtTheEnd)=>{
         }
     });
    
-    validCities = validCities.sort(compareData);
+    validCities = validCities.sort(compareByPercent);
 
     validCities = validCities.slice(0,10);
-    
+
     for(let index = 0; index < validCities.length; index++){
         validCities[index].id = index;
     }
@@ -80,8 +89,8 @@ const sendData = async(validCities)=> {
             topCities.push(newCity.data);
         }));
 
-        topCities = topCities.sort(compareData);
-
+        topCities = topCities.sort(compareById);    
+  
         return topCities;
     } catch(error) {
         return [];
