@@ -3,24 +3,39 @@ const states = [
    	"PB","PR","PE","PI","RJ","RN","RS", "RO", "RR","SC","SP","SE","TO"
 ]
 
-
 /**
- * Receive one date and validates it.
- * @returns {boolean} - Returns true if the date is valid, otherwise returns false.
- * @param {string} date - A date following format 'YYYY-MM-DD'.
- */ 
-function validateDate (date){
-    if(date === null) return false;
-    const newDate = date.split('-');
-    if(newDate === null) return false;
+ * Verify if they are compatible.
+ * @param {string} dateString - A date following the format 'YYYY-MM-DD'. 
+ * @param {dateTime} dateTime - A date time
+ */
+function verifyDate(dateString, dateTime){
+    const day = dateString[2], month = dateString[1], year = dateString[0];
+    return dateTime.getDate() === parseInt(day) && dateTime.getMonth() === parseInt(month) && dateTime.getFullYear() === parseInt(year)
+}
 
-    const day = newDate[2];
-    const month = newDate[1];
-    const year = newDate[0];
+ /**
+  * Receives and validates the dates.
+  * @param {string} dateStart -  A date following format 'YYYY-MM-DD'.
+  * @param {string} dateEnd -  A date following format 'YYYY-MM-DD'.
+  */
+function validateDate (dateStart, dateEnd){
+    if(dateStart === null || dateEnd === null) return false;
+   
+    const splitStart = dateStart.split('-');
+    const splitEnd = dateEnd.split('-');
 
-    var tryDate = new Date(year, month, day);
+    if(splitStart === null|| splitEnd === null) return false;
 
-    return tryDate.getDate() === parseInt(day) && tryDate.getMonth() === parseInt(month) && tryDate.getFullYear() === parseInt(year)
+    const dayStart = splitStart[2], monthStart = splitStart[1], yearStart = splitStart[0];
+    const dayEnd = splitEnd[2], monthEnd = splitEnd[1],yearEnd = splitEnd[0];
+   
+    const currentDate = new Date();
+    const tryDateStart = new Date(yearStart, monthStart, dayStart);
+    const tryDateEnd = new Date(yearEnd, monthEnd, dayEnd);
+    
+    if(tryDateEnd < tryDateStart || tryDateStart > currentDate || tryDateEnd > currentDate) return false;
+
+    return  verifyDate(splitStart, tryDateStart) && verifyDate(splitEnd, tryDateEnd);
 }
 
 /**
@@ -34,7 +49,7 @@ module.exports = async(req,res,next)=>{
       
         const stateExist = states.find(element => element === state);
 
-        if(!(validateDate(dateStart) && validateDate(dateEnd))) {
+        if(!(validateDate(dateStart,dateEnd))) {
             return res.status(400).json({message: "Invalid Date"});
         }
 
