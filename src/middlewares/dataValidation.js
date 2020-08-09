@@ -10,7 +10,7 @@ const states = [
  */
 function verifyDate(dateString, dateTime){
     const day = dateString[2], month = dateString[1], year = dateString[0];
-    return dateTime.getDate() === parseInt(day) && dateTime.getMonth() === parseInt(month) && dateTime.getFullYear() === parseInt(year)
+    return dateTime.getDate() === parseInt(day) && dateTime.getMonth()+1 === parseInt(month) && dateTime.getFullYear() === parseInt(year)
 }
 
  /**
@@ -18,6 +18,7 @@ function verifyDate(dateString, dateTime){
   * @param {string} dateStart -  A date following format 'YYYY-MM-DD'.
   * @param {string} dateEnd -  A date following format 'YYYY-MM-DD'.
   */
+
 function validateDate (dateStart, dateEnd){
     if(dateStart === null || dateEnd === null) return false;
    
@@ -26,8 +27,8 @@ function validateDate (dateStart, dateEnd){
 
     if(splitStart === null|| splitEnd === null) return false;
 
-    const dayStart = splitStart[2], monthStart = splitStart[1], yearStart = splitStart[0];
-    const dayEnd = splitEnd[2], monthEnd = splitEnd[1],yearEnd = splitEnd[0];
+    const dayStart = splitStart[2], monthStart = splitStart[1]-1, yearStart = splitStart[0];
+    const dayEnd = splitEnd[2], monthEnd = splitEnd[1]-1,yearEnd = splitEnd[0];
    
     const currentDate = new Date();
     const tryDateStart = new Date(yearStart, monthStart, dayStart);
@@ -46,7 +47,7 @@ function validateDate (dateStart, dateEnd){
 module.exports = async(req,res,next)=>{
     try {
         const{state, dateStart, dateEnd}  = req.query;
-      
+        
         const stateExist = states.find(element => element === state);
 
         if(!(validateDate(dateStart,dateEnd))) {
@@ -59,7 +60,7 @@ module.exports = async(req,res,next)=>{
     
         return next();
     }catch(error) {
-        return res.status(500).json({message:"Something went wrong"});
+        return res.status(500).json({message:"Something went wrong, middleware"});
     }
 }
 
