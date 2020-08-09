@@ -10,7 +10,7 @@ const {
 
 const dataMiddleware = require('./middlewares/dataValidation');
 
-routes.get('/covid', dataMiddleware, async(req, res)=>{
+routes.get('/covid',dataMiddleware, async(req, res)=>{
     try {
         const{state, dateStart, dateEnd} = req.query;
         

@@ -51,7 +51,7 @@ const processData = async(citiesAtTheBeginning, citiesAtTheEnd)=>{
                 const cityAfter = citiesAtTheEnd.find(element => element.city_ibge_code === city.city_ibge_code);
                 const increase = cityAfter.confirmed - city.confirmed;
                 const percentCases = (increase/city.estimated_population_2019)*100;
-                console.log("percent: ", percentCases);
+    
                 validCities.push({
                     id: 0,
                     nomeCidade: city.city,

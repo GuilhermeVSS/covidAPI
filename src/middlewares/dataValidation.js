@@ -60,7 +60,7 @@ module.exports = async(req,res,next)=>{
     
         return next();
     }catch(error) {
-        return res.status(500).json({message:"Something went wrong, middleware"});
+        return res.status(500).json({message:"Something went wrong"});
     }
 }
 
