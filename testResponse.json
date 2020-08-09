@@ -1,0 +1,1342 @@
+{
+    "allState": [
+        {
+            "nameState": "AC",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Acrelândia",
+                    "percentualDeCasos": 0.8390141583639223
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Rio Branco",
+                    "percentualDeCasos": 0.7357869384929258
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Cruzeiro do Sul",
+                    "percentualDeCasos": 0.7106001629401648
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Plácido de Castro",
+                    "percentualDeCasos": 0.5870148271848591
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Tarauacá",
+                    "percentualDeCasos": 0.5027368618883172
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Sena Madureira",
+                    "percentualDeCasos": 0.46894084801954283
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Bujari",
+                    "percentualDeCasos": 0.4383401519579193
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Porto Acre",
+                    "percentualDeCasos": 0.43233895373973197
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Senador Guiomard",
+                    "percentualDeCasos": 0.42998610145934674
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Epitaciolândia",
+                    "percentualDeCasos": 0.41279669762641896
+                }
+            ]
+        },
+        {
+            "nameState": "AL",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Jequiá da Praia",
+                    "percentualDeCasos": 0.8031088082901554
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Santa Luzia do Norte",
+                    "percentualDeCasos": 0.7538377192982456
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Satuba",
+                    "percentualDeCasos": 0.7376337865201041
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Coqueiro Seco",
+                    "percentualDeCasos": 0.5645851154833191
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Quebrangulo",
+                    "percentualDeCasos": 0.5578183106074022
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Porto Calvo",
+                    "percentualDeCasos": 0.5558623228418922
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Capela",
+                    "percentualDeCasos": 0.5394945170937665
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "São Sebastião",
+                    "percentualDeCasos": 0.5211993441086905
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Marechal Deodoro",
+                    "percentualDeCasos": 0.4701258164582571
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Paulo Jacinto",
+                    "percentualDeCasos": 0.4627181385510312
+                }
+            ]
+        },
+        {
+            "nameState": "AP",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Serra do Navio",
+                    "percentualDeCasos": 3.8169353344450623
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Pedra Branca do Amapari",
+                    "percentualDeCasos": 2.848139619440068
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Laranjal do Jari",
+                    "percentualDeCasos": 2.7177147391390597
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Cutias",
+                    "percentualDeCasos": 1.8218285141233495
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Mazagão",
+                    "percentualDeCasos": 1.201923076923077
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Ferreira Gomes",
+                    "percentualDeCasos": 1.1439588688946016
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Amapá",
+                    "percentualDeCasos": 0.9770556592381161
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Oiapoque",
+                    "percentualDeCasos": 0.9644297763109645
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Itaubal",
+                    "percentualDeCasos": 0.9631110303470833
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Vitória do Jari",
+                    "percentualDeCasos": 0.8662356412026865
+                }
+            ]
+        },
+        {
+            "nameState": "AM",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "São Gabriel da Cachoeira",
+                    "percentualDeCasos": 3.7836888771837414
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Itapiranga",
+                    "percentualDeCasos": 3.541757761259292
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Tefé",
+                    "percentualDeCasos": 2.469548363381176
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Santo Antônio do Içá",
+                    "percentualDeCasos": 2.171095268956578
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Coari",
+                    "percentualDeCasos": 2.03062387628236
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Amaturá",
+                    "percentualDeCasos": 1.9070735090152564
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Tapauá",
+                    "percentualDeCasos": 1.7894614129167639
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Benjamin Constant",
+                    "percentualDeCasos": 1.7820584403498978
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Barcelos",
+                    "percentualDeCasos": 1.6071558432114028
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Alvarães",
+                    "percentualDeCasos": 1.5709743781559753
+                }
+            ]
+        },
+        {
+            "nameState": "BA",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Uruçuca",
+                    "percentualDeCasos": 0.355767824942736
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Itajuípe",
+                    "percentualDeCasos": 0.2976916695134449
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Salvador",
+                    "percentualDeCasos": 0.2699534561806077
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Itabuna",
+                    "percentualDeCasos": 0.26544978731187535
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Jequié",
+                    "percentualDeCasos": 0.20004359924598952
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Lauro de Freitas",
+                    "percentualDeCasos": 0.1859504132231405
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Ipiaú",
+                    "percentualDeCasos": 0.18529418176269266
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Itamaraju",
+                    "percentualDeCasos": 0.17213038488974353
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Ilhéus",
+                    "percentualDeCasos": 0.1700271673843538
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Candeias",
+                    "percentualDeCasos": 0.1676696219394552
+                }
+            ]
+        },
+        {
+            "nameState": "CE",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "São Gonçalo do Amarante",
+                    "percentualDeCasos": 1.4745363677667176
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Itarema",
+                    "percentualDeCasos": 1.2504184000382537
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Senador Sá",
+                    "percentualDeCasos": 1.023219205037387
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Barroquinha",
+                    "percentualDeCasos": 0.9788905906639143
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Sobral",
+                    "percentualDeCasos": 0.9342618517720822
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Massapê",
+                    "percentualDeCasos": 0.9241810155665127
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Uruburetama",
+                    "percentualDeCasos": 0.9107551487414187
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Alcântaras",
+                    "percentualDeCasos": 0.8963633259347789
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Itatira",
+                    "percentualDeCasos": 0.8869589319536195
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Bela Cruz",
+                    "percentualDeCasos": 0.8867478751802644
+                }
+            ]
+        },
+        {
+            "nameState": "DF",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Brasília",
+                    "percentualDeCasos": 0.23288145531342486
+                }
+            ]
+        },
+        {
+            "nameState": "ES",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Presidente Kennedy",
+                    "percentualDeCasos": 0.7084845343010195
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Marechal Floriano",
+                    "percentualDeCasos": 0.5391158500059902
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Marataízes",
+                    "percentualDeCasos": 0.4727395516766669
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Vitória",
+                    "percentualDeCasos": 0.4578883558825398
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Anchieta",
+                    "percentualDeCasos": 0.4408297167071046
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Boa Esperança",
+                    "percentualDeCasos": 0.43891733723482074
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Fundão",
+                    "percentualDeCasos": 0.41842949463015483
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Alfredo Chaves",
+                    "percentualDeCasos": 0.3903842202588864
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Cariacica",
+                    "percentualDeCasos": 0.33518234391596835
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Serra",
+                    "percentualDeCasos": 0.3313945624239145
+                }
+            ]
+        },
+        {
+            "nameState": "GO",
+            "dataState": []
+        },
+        {
+            "nameState": "MA",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Lima Campos",
+                    "percentualDeCasos": 1.9170940889598924
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Santa Inês",
+                    "percentualDeCasos": 1.866492969767755
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Zé Doca",
+                    "percentualDeCasos": 1.7558108055845612
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Urbano Santos",
+                    "percentualDeCasos": 1.7480828452388142
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Santo Antônio dos Lopes",
+                    "percentualDeCasos": 1.6313325991189425
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Araguanã",
+                    "percentualDeCasos": 1.3289251912355762
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Pedreiras",
+                    "percentualDeCasos": 1.294960360957455
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Anapurus",
+                    "percentualDeCasos": 1.2712941774726672
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Junco do Maranhão",
+                    "percentualDeCasos": 1.1655011655011656
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Trizidela do Vale",
+                    "percentualDeCasos": 1.0955541412855714
+                }
+            ]
+        },
+        {
+            "nameState": "MT",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Confresa",
+                    "percentualDeCasos": 0.23922671580512722
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Rosário Oeste",
+                    "percentualDeCasos": 0.19823916972771266
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Primavera do Leste",
+                    "percentualDeCasos": 0.1644657282445702
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Acorizal",
+                    "percentualDeCasos": 0.14817558807186515
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "São Pedro da Cipa",
+                    "percentualDeCasos": 0.12693039983075946
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Jaciara",
+                    "percentualDeCasos": 0.10440668202764977
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Cuiabá",
+                    "percentualDeCasos": 0.09958419517196232
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Conquista D'Oeste",
+                    "percentualDeCasos": 0.09905894006934125
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Aripuanã",
+                    "percentualDeCasos": 0.09841639080254093
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Tangará da Serra",
+                    "percentualDeCasos": 0.09542168674698795
+                }
+            ]
+        },
+        {
+            "nameState": "MS",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Guia Lopes da Laguna",
+                    "percentualDeCasos": 2.1020717534108133
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Bonito",
+                    "percentualDeCasos": 0.2002184200946487
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Dourados",
+                    "percentualDeCasos": 0.1444276493727265
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Jardim",
+                    "percentualDeCasos": 0.10346016783538338
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Três Lagoas",
+                    "percentualDeCasos": 0.064256763436254
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Chapadão do Sul",
+                    "percentualDeCasos": 0.04758505829169641
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Ribas do Rio Pardo",
+                    "percentualDeCasos": 0.03656307129798903
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Paraíso das Águas",
+                    "percentualDeCasos": 0.036003600360036005
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Ponta Porã",
+                    "percentualDeCasos": 0.03566565073600934
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Bataguassu",
+                    "percentualDeCasos": 0.03474635163307853
+                }
+            ]
+        },
+        {
+            "nameState": "MG",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Jaboticatubas",
+                    "percentualDeCasos": 0.4865213721888497
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Estrela Dalva",
+                    "percentualDeCasos": 0.3841229193341869
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "São Sebastião do Oeste",
+                    "percentualDeCasos": 0.36900369003690037
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Mariana",
+                    "percentualDeCasos": 0.3178314999011923
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Vargem Alegre",
+                    "percentualDeCasos": 0.24691358024691357
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Carangola",
+                    "percentualDeCasos": 0.2303030303030303
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Camanducaia",
+                    "percentualDeCasos": 0.2112999540652274
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Itabira",
+                    "percentualDeCasos": 0.19990004997501248
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Barbacena",
+                    "percentualDeCasos": 0.19226147560682527
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Itamonte",
+                    "percentualDeCasos": 0.18614801977020348
+                }
+            ]
+        },
+        {
+            "nameState": "PA",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Canaã dos Carajás",
+                    "percentualDeCasos": 2.386409599568559
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Senador José Porfírio",
+                    "percentualDeCasos": 1.312403499742666
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Curionópolis",
+                    "percentualDeCasos": 1.305148084109543
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Benevides",
+                    "percentualDeCasos": 1.2735706202081707
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Viseu",
+                    "percentualDeCasos": 1.1530381251730373
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Vitória do Xingu",
+                    "percentualDeCasos": 1.0638297872340425
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Igarapé-Miri",
+                    "percentualDeCasos": 0.971322849213691
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Abaetetuba",
+                    "percentualDeCasos": 0.9543557939859731
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Mocajuba",
+                    "percentualDeCasos": 0.928186022610483
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Cametá",
+                    "percentualDeCasos": 0.8717093335267242
+                }
+            ]
+        },
+        {
+            "nameState": "PB",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Riachão do Bacamarte",
+                    "percentualDeCasos": 1.70316301703163
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Caaporã",
+                    "percentualDeCasos": 1.5164009529045264
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Cabedelo",
+                    "percentualDeCasos": 1.0437581197590646
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Pilõezinhos",
+                    "percentualDeCasos": 0.9244372990353698
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Guarabira",
+                    "percentualDeCasos": 0.8498631720293033
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Juripiranga",
+                    "percentualDeCasos": 0.7995537374488657
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Pedras de Fogo",
+                    "percentualDeCasos": 0.7765830346475507
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Itabaiana",
+                    "percentualDeCasos": 0.7762389181680761
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Alagoinha",
+                    "percentualDeCasos": 0.6901787562978812
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Cuitegi",
+                    "percentualDeCasos": 0.6173746876378068
+                }
+            ]
+        },
+        {
+            "nameState": "PR",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Mirador",
+                    "percentualDeCasos": 0.4518752824220515
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Tamboara",
+                    "percentualDeCasos": 0.37109375
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Campo Bonito",
+                    "percentualDeCasos": 0.2869814766501435
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Cornélio Procópio",
+                    "percentualDeCasos": 0.19855784303479984
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Boa Vista da Aparecida",
+                    "percentualDeCasos": 0.19760242392306682
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "São Manoel do Paraná",
+                    "percentualDeCasos": 0.1851851851851852
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Ibema",
+                    "percentualDeCasos": 0.14168765743073047
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Ribeirão do Pinhal",
+                    "percentualDeCasos": 0.13047816409547933
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Quitandinha",
+                    "percentualDeCasos": 0.12074124625964618
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Sertaneja",
+                    "percentualDeCasos": 0.11355034065102196
+                }
+            ]
+        },
+        {
+            "nameState": "PE",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Água Preta",
+                    "percentualDeCasos": 0.6744445350955917
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Recife",
+                    "percentualDeCasos": 0.5214109022942445
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Pombos",
+                    "percentualDeCasos": 0.5130855265586357
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Ferreiros",
+                    "percentualDeCasos": 0.4949269982677555
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Itambé",
+                    "percentualDeCasos": 0.48838038796060035
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Feira Nova",
+                    "percentualDeCasos": 0.4834847047128462
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Itapissuma",
+                    "percentualDeCasos": 0.47277775693219765
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Fernando de Noronha",
+                    "percentualDeCasos": 0.4573668735707285
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Goiana",
+                    "percentualDeCasos": 0.39745229318689035
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Palmares",
+                    "percentualDeCasos": 0.366798418972332
+                }
+            ]
+        },
+        {
+            "nameState": "PI",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Cocal de Telha",
+                    "percentualDeCasos": 0.5111429155591903
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Água Branca",
+                    "percentualDeCasos": 0.4709666302911952
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Demerval Lobão",
+                    "percentualDeCasos": 0.4414851270174423
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Barras",
+                    "percentualDeCasos": 0.3718182977095993
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Morro do Chapéu do Piauí",
+                    "percentualDeCasos": 0.33843437316068276
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Parnaíba",
+                    "percentualDeCasos": 0.32728412965938936
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Esperantina",
+                    "percentualDeCasos": 0.31708483277549887
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Campo Maior",
+                    "percentualDeCasos": 0.2989345119894092
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Uruçuí",
+                    "percentualDeCasos": 0.28295760274608034
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Batalha",
+                    "percentualDeCasos": 0.23457571582827566
+                }
+            ]
+        },
+        {
+            "nameState": "RJ",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "São José de Ubá",
+                    "percentualDeCasos": 0.5996374285315855
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Queimados",
+                    "percentualDeCasos": 0.5887479294034687
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Casimiro de Abreu",
+                    "percentualDeCasos": 0.47981169654173456
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Niterói",
+                    "percentualDeCasos": 0.4536745693012243
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Angra dos Reis",
+                    "percentualDeCasos": 0.3798120568245945
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Paracambi",
+                    "percentualDeCasos": 0.37889660715310863
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Três Rios",
+                    "percentualDeCasos": 0.36184049679722263
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Itaboraí",
+                    "percentualDeCasos": 0.35495777083194785
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Guapimirim",
+                    "percentualDeCasos": 0.35196721582365287
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Italva",
+                    "percentualDeCasos": 0.34852370618793976
+                }
+            ]
+        },
+        {
+            "nameState": "RN",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Areia Branca",
+                    "percentualDeCasos": 0.7417008713184993
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Apodi",
+                    "percentualDeCasos": 0.6862881852420143
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Felipe Guerra",
+                    "percentualDeCasos": 0.46783625730994155
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Tibau",
+                    "percentualDeCasos": 0.41402825133950316
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Extremoz",
+                    "percentualDeCasos": 0.3498583073855089
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Pedra Grande",
+                    "percentualDeCasos": 0.3398208217485326
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Alto do Rodrigues",
+                    "percentualDeCasos": 0.30284259068070757
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Guamaré",
+                    "percentualDeCasos": 0.2873746727121783
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Porto do Mangue",
+                    "percentualDeCasos": 0.2796333695821035
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Mossoró",
+                    "percentualDeCasos": 0.2791060535749114
+                }
+            ]
+        },
+        {
+            "nameState": "RS",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Lajeado",
+                    "percentualDeCasos": 1.323588925655248
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Garibaldi",
+                    "percentualDeCasos": 0.8896492728828057
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Coxilha",
+                    "percentualDeCasos": 0.7982583454281567
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Trindade do Sul",
+                    "percentualDeCasos": 0.672182006204757
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Saldanha Marinho",
+                    "percentualDeCasos": 0.5283018867924528
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Carlos Barbosa",
+                    "percentualDeCasos": 0.44581503703951997
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Serafina Corrêa",
+                    "percentualDeCasos": 0.411381556393555
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Bento Gonçalves",
+                    "percentualDeCasos": 0.3968319856542747
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "São Jorge",
+                    "percentualDeCasos": 0.3895184135977337
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Taquari",
+                    "percentualDeCasos": 0.37599583054128505
+                }
+            ]
+        },
+        {
+            "nameState": "RO",
+            "dataState": []
+        },
+        {
+            "nameState": "RR",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Cantá",
+                    "percentualDeCasos": 0.8235614944095991
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Mucajaí",
+                    "percentualDeCasos": 0.5489273511454658
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Bonfim",
+                    "percentualDeCasos": 0.5318720283665082
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Caroebe",
+                    "percentualDeCasos": 0.501524240338283
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Boa Vista",
+                    "percentualDeCasos": 0.45990486281759363
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Pacaraima",
+                    "percentualDeCasos": 0.41951611976323194
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Alto Alegre",
+                    "percentualDeCasos": 0.3546099290780142
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "São João da Baliza",
+                    "percentualDeCasos": 0.32922814290940133
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "São Luiz",
+                    "percentualDeCasos": 0.32556974705735037
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Rorainópolis",
+                    "percentualDeCasos": 0.2619102874382522
+                }
+            ]
+        },
+        {
+            "nameState": "SC",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Concórdia",
+                    "percentualDeCasos": 1.070457255395828
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Três Barras",
+                    "percentualDeCasos": 0.861219195849546
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Seara",
+                    "percentualDeCasos": 0.8152328829599225
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Caxambu do Sul",
+                    "percentualDeCasos": 0.6864360241625481
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Paial",
+                    "percentualDeCasos": 0.6644518272425249
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Guatambú",
+                    "percentualDeCasos": 0.5102040816326531
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Xaxim",
+                    "percentualDeCasos": 0.4354490350449383
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Arvoredo",
+                    "percentualDeCasos": 0.40178571428571425
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Ipumirim",
+                    "percentualDeCasos": 0.39510075069142636
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Itá",
+                    "percentualDeCasos": 0.38904198411411894
+                }
+            ]
+        },
+        {
+            "nameState": "SP",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Jaci",
+                    "percentualDeCasos": 0.8631668317532192
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Santos",
+                    "percentualDeCasos": 0.5815684346808643
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Igaratá",
+                    "percentualDeCasos": 0.35661841829242713
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Lençóis Paulista",
+                    "percentualDeCasos": 0.3244096329202712
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Charqueada",
+                    "percentualDeCasos": 0.2850494473531123
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "São Paulo",
+                    "percentualDeCasos": 0.2760278853541166
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Barueri",
+                    "percentualDeCasos": 0.2403512995017908
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Pariquera-Açu",
+                    "percentualDeCasos": 0.23921009771986973
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Guarujá",
+                    "percentualDeCasos": 0.23341519507955777
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Pirapora do Bom Jesus",
+                    "percentualDeCasos": 0.22757343212490075
+                }
+            ]
+        },
+        {
+            "nameState": "SE",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Aracaju",
+                    "percentualDeCasos": 0.4494583821020285
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Nossa Senhora da Glória",
+                    "percentualDeCasos": 0.42248943776405595
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Barra dos Coqueiros",
+                    "percentualDeCasos": 0.4012234025060019
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Cedro de São João",
+                    "percentualDeCasos": 0.3900288282177378
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "São Cristóvão",
+                    "percentualDeCasos": 0.30864197530864196
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Itabaiana",
+                    "percentualDeCasos": 0.2797950265648087
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Graccho Cardoso",
+                    "percentualDeCasos": 0.2750085940185631
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Itabaianinha",
+                    "percentualDeCasos": 0.2742797176111429
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Umbaúba",
+                    "percentualDeCasos": 0.26883845971376613
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Nossa Senhora do Socorro",
+                    "percentualDeCasos": 0.25595225129065285
+                }
+            ]
+        },
+        {
+            "nameState": "TO",
+            "dataState": [
+                {
+                    "id": 0,
+                    "nomeCidade": "Darcinópolis",
+                    "percentualDeCasos": 1.8369690011481057
+                },
+                {
+                    "id": 1,
+                    "nomeCidade": "Xambioá",
+                    "percentualDeCasos": 1.733102253032929
+                },
+                {
+                    "id": 2,
+                    "nomeCidade": "Nova Olinda",
+                    "percentualDeCasos": 0.8968609865470852
+                },
+                {
+                    "id": 3,
+                    "nomeCidade": "Araguaína",
+                    "percentualDeCasos": 0.8466781182468001
+                },
+                {
+                    "id": 4,
+                    "nomeCidade": "Sítio Novo do Tocantins",
+                    "percentualDeCasos": 0.598072876287518
+                },
+                {
+                    "id": 5,
+                    "nomeCidade": "Cariri do Tocantins",
+                    "percentualDeCasos": 0.5705157462345961
+                },
+                {
+                    "id": 6,
+                    "nomeCidade": "Aguiarnópolis",
+                    "percentualDeCasos": 0.5049754938363286
+                },
+                {
+                    "id": 7,
+                    "nomeCidade": "Sampaio",
+                    "percentualDeCasos": 0.48821906177032476
+                },
+                {
+                    "id": 8,
+                    "nomeCidade": "Tocantinópolis",
+                    "percentualDeCasos": 0.45037166593790995
+                },
+                {
+                    "id": 9,
+                    "nomeCidade": "Palmeiras do Tocantins",
+                    "percentualDeCasos": 0.435566236106939
+                }
+            ]
+        }
+    ]
+}
