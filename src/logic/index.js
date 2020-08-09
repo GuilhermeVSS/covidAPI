@@ -12,7 +12,7 @@ const citiesOnDate = async(state,date)=>{
     try{
         const {data}  = await apiCovid.get(`?state=${state}&date=${date}`);
         return data.results;
-    }catch(error){
+    } catch(error) {
         return [];
     }
 }
@@ -43,31 +43,35 @@ const compareById = (cityBefore, cityAfter) => {
  * @param {Array} citiesAtTheEnd - An array with the data  of the cities at the end of the period.
  */
 const processData = async(citiesAtTheBeginning, citiesAtTheEnd)=>{
-    let validCities = [];
-   
-    citiesAtTheBeginning.map((city)=>{
-        if(city.city !== null && city.confirmed!== null && city.estimated_population_2019 !== null) {
-            const cityAfter = citiesAtTheEnd.find(element => element.city_ibge_code === city.city_ibge_code);
-            const increase = cityAfter.confirmed - city.confirmed;
-            const percentCases = (increase/city.estimated_population_2019)*100;
+    try {
+        let validCities = [];
 
-            validCities.push({
-                id: 0,
-                nomeCidade: city.city,
-                percentualDeCasos: percentCases
-            });
+        citiesAtTheBeginning.map((city)=>{
+            if(city.city !== null && city.confirmed!== null && city.estimated_population_2019 !== null) {
+                const cityAfter = citiesAtTheEnd.find(element => element.city_ibge_code === city.city_ibge_code);
+                const increase = cityAfter.confirmed - city.confirmed;
+                const percentCases = (increase/city.estimated_population_2019)*100;
+                console.log("percent: ", percentCases);
+                validCities.push({
+                    id: 0,
+                    nomeCidade: city.city,
+                    percentualDeCasos: percentCases
+                });
+            }
+        });
+
+        validCities = validCities.sort(compareByPercent);
+
+        validCities = validCities.slice(0,10);
+
+        for(let index = 0; index < validCities.length; index++){
+            validCities[index].id = index;
         }
-    });
-   
-    validCities = validCities.sort(compareByPercent);
-
-    validCities = validCities.slice(0,10);
-
-    for(let index = 0; index < validCities.length; index++){
-        validCities[index].id = index;
+        
+        return  validCities ;
+    } catch(error) {
+        return []
     }
-    
-    return  validCities ;
 }
 
 /**
